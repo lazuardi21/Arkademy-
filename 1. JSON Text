@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Return Biodata</h2>
+
+<p id="demo"></p>
+
+<script>
+var text = '{"name":"Lazuardi Fenjano","age":"24","address":"Cimahi","hobbies":"Catur","Is_Married":"Single","list_school":[ "SD Hikmah teladan 2004-2007", "Gontor 2007-2013", "Upi 2015-2019"],"skills":[ "STS intermediate", "PostgreSQL intermediate", "Navicat Expert","Adobe Premier Intermediate"]}';
+var hobbies = '{"Sepak Bola","Badminton","Renang","Membaca"}';
+
+var obj = JSON.parse(text);
+
+document.getElementById("demo").innerHTML =
+obj.name + "<br>" +
+obj.age + "<br>" +
+obj.address + "<br>" +
+obj.hobbies + "<br>" +
+obj.Is_Married + "<br>" +
+obj.list_school[0] + "<br>"+
+obj.list_school[1] + "<br>"+
+obj.list_school[2] + "<br>"+
+obj.skills [0]  + "<br>"+
+obj.skills [1]  + "<br>"+
+obj.skills [2]  
+;
+</script>
+
+</body>
+</html>
