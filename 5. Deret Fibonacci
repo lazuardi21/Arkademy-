@@ -1,4 +1,4 @@
-4.A untuk fibo Genap saya menggunakan JAVA
+5.A untuk fibo Genap saya menggunakan JAVA
 import java.util.Scanner;
 
 class Main {
@@ -37,7 +37,7 @@ class Main {
 	
 		}
     
-    4.b Untuk Fibo Ganjil
+    5.b Untuk Fibo Ganjil
     
     import java.util.Scanner;
 
