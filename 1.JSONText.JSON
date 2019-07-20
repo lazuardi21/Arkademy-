@@ -8,7 +8,7 @@
 
 <script>
 var text = '{"name":"Lazuardi Fenjano","age":"24","address":"Cimahi","hobbies":"Catur","Is_Married":"Single","list_school":[ "SD Hikmah teladan 2004-2007", "Gontor 2007-2013", "Upi 2015-2019"],"skills":[ "STS intermediate", "PostgreSQL intermediate", "Navicat Expert","Adobe Premier Intermediate"]}';
-var hobbies = '{"Sepak Bola","Badminton","Renang","Membaca"}';
+
 
 var obj = JSON.parse(text);
 
