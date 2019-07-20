@@ -1,0 +1,20 @@
+<script type="text/javascript">
+function validateForm() {
+    var username = document.getElementById("username").value;
+	var password = document.getElementById("password").value;
+	
+	var pola_username=/^([a-zA-Z]).{4,10}?$/;
+		var password=/^([a-z])([?=.*[0-9])(?=.*[A-Z])(?=.*[=]){8,}/;
+	
+   		if(!username.match(pola_username)) {
+     		alert('Username tidak boleh diawali huruf kecil atau karakter special dan terdiri dari 4-10 karakter');
+     		username.focus();
+     		return false;
+   		}
+   		if(!password.match(password)) {
+     		alert('Password harus kombinasi dari huruf kecil, huruf besar minimal satu karakter, angka minimal satu karakter, dan karakter spesial minimal satu karakter dan harus memiliki karakter simbol “=”  dan panjang minimal 8 karakter');
+     		password.focus();
+     		return false;
+   		}  		
+}
+</script>
